@@ -1,0 +1,70 @@
+import type { InventoryItem } from '../types/game';
+
+export const ITEMS: Record<string, InventoryItem> = {
+  memory_fragment_1: {
+    id: 'memory_fragment_1',
+    name: '童年记忆碎片',
+    description: '一段模糊的童年记忆，散发着温暖的光芒。',
+    icon: 'sparkles',
+    type: 'memory',
+  },
+  memory_fragment_2: {
+    id: 'memory_fragment_2',
+    name: '遗忘的承诺',
+    description: '曾经许下的诺言，被时间的洪流冲散。',
+    icon: 'heart',
+    type: 'memory',
+  },
+  time_key_past: {
+    id: 'time_key_past',
+    name: '过去之钥',
+    description: '打开通往过去时间线的钥匙，散发着琥珀色的光芒。',
+    icon: 'key',
+    type: 'key',
+    sceneUnlock: 'past',
+  },
+  time_key_future: {
+    id: 'time_key_future',
+    name: '未来之钥',
+    description: '打开通往未来时间线的钥匙，闪烁着冷蓝色的光芒。',
+    icon: 'key',
+    type: 'key',
+    sceneUnlock: 'future',
+  },
+  paradox_core: {
+    id: 'paradox_core',
+    name: '悖论核心',
+    description: '蕴含着三条时间线交汇力量的神秘结晶。',
+    icon: 'diamond',
+    type: 'artifact',
+    sceneUnlock: 'paradox',
+  },
+  memory_fragment_3: {
+    id: 'memory_fragment_3',
+    name: '未来的信件',
+    description: '来自未来自己的一封信，墨迹尚未干涸。',
+    icon: 'mail',
+    type: 'memory',
+  },
+  hourglass_shard: {
+    id: 'hourglass_shard',
+    name: '沙漏碎片',
+    description: '时间沙漏的碎片，其中的沙粒仍在缓缓流动。',
+    icon: 'hourglass',
+    type: 'artifact',
+  },
+  broken_compass: {
+    id: 'broken_compass',
+    name: '遗失的罗盘',
+    description: '指针永远指向过去的方向，表面刻着一行模糊的字。',
+    icon: 'compass',
+    type: 'memory',
+  },
+  temporal_lens: {
+    id: 'temporal_lens',
+    name: '时间透镜',
+    description: '透过它可以窥见时间线的裂痕，冰冷而沉重。',
+    icon: 'eye',
+    type: 'artifact',
+  },
+};
